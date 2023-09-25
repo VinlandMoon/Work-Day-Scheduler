@@ -1,13 +1,10 @@
-# Password Generator
+# Work Day Scheduler
 
 
 ## Description
-What was your motivation?
 
+In this project, I built a calendar application using jQuery and the Moment.js library. I started with a basic code and customized it to display the current time, date, and day of the week. The application allows the user to save tasks for specific time slots and displays the saved tasks even after page refresh. A color-coding system is used to indicate past, present, and future time slots. Overall, the project involved using jQuery to manipulate the DOM, Moment.js to handle time and date, and implementing event listeners to update the application based on user actions.
 
--
-- 
-- 
 
 
 ## Installation
