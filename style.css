@@ -1,1 +1,86 @@
+:root {
+  --bodyFont: "Open Sans", sans-serif;
+  --white: #ffffff;
+  --ltGray: #d3d3d3;
+  --black: #000000;
+  --red: #ff6961;
+  --green: #77dd77;
+  --blue: #06aed5;
+}
 
+body {
+  font-family: var(--bodyFont);
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: 1px solid var(--ltGray);
+  resize: none;
+  color: var(--black);
+  border-left: 1px solid var(--black);
+  padding: 10px;
+  height: 75px;
+  width: 90%;
+}
+
+
+.past {
+  background-color: var(--ltGray);
+  color: var(--white);
+}
+
+.present {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.future {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: var(--black);
+  border-radius: 0;
+  border-bottom: 10px solid var(--black);
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid var(--white);
+}
+
+.hour {
+  background-color: var(--white);
+  color: var(--black);
+  border-top: 1px dashed var(--black);
+}
+
+.saveBtn {
+  border-left: 1px solid var(--black);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 80px;
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
