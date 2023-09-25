@@ -21,7 +21,7 @@ Deployable Link --> []()
 
 ## Credits
 
-[]()
+[Storage: getItem() method](https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem)
 ## License
 
 Please refer to the LICENSE in the repo.
